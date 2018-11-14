@@ -17,3 +17,33 @@ https://doi.org/10.18167/xylotheque
 It is made up of 2 files:
 * `Cirad wood collection - Main data.csv`
 * `Cirad wood collection - Additional data.csv`
+### General information
+Both files are in Comma Separated Values (CSV) format.
+* Encoding: UTF-8
+* Separator: ";"
+* Delimitor: none
+### Main data
+The file `Cirad wood collection - Main data.csv` has the following column headers:
+- `CTFT id`, historical index 
+- `Family`
+- `Species`
+- `Specific gravity`
+- `Country` in which was collected the sample
+- `Sub-continent`
+- `Herbarium occurrence`
+
+### Additional data
+The file `Cirad wood collection - Additional data.csv` has the following column headers:
+- `CTFT id`
+- `Number of samples`
+- `Collector's name`
+- `Collector's id number`, which is related to IRD herbarium (Herbier IRD de Guyane) and National herbarium of the Muséum National d'Histoire Naturelle (MNHN - Paris, France). See links below. 
+- `Notes on origin`
+- `Number of anatomical slide(s)`
+- `Chutes`
+
+## Appendices
+### Herbier IRD de Guyane
+http://publish.plantnet-project.org/project/caypub/collection/cay/specimens
+
+https://science.mnhn.fr/institution/mnhn/collection/p/item/search/form
