@@ -14,36 +14,31 @@ CIRAD's xylotheque is one of the most important wood collections of tropical and
 "Normand, D., Mariaux, A., Détienne, P., & Langbour, P. (2017). CIRAD's wood collection. CIRAD." 
 https://doi.org/10.18167/xylotheque
 # Description of the dataset
-It is made up of 2 files:
-* `Cirad wood collection - Main data.csv`
-* `Cirad wood collection - Additional data.csv`
+It consists in the following file: `Cirad wood collection index.csv`
 ### General information
 Both files are in Comma Separated Values (CSV) format.
 * Encoding: UTF-8
 * Separator: ";"
 * Delimitor: none
-### Main data
-The file `Cirad wood collection - Main data.csv` has the following column headers:
-- `CTFT id`, historical index 
+### Data fields
+The file has the following column headers:
+- `CTFT id`, the main identifier and historical index 
 - `Family`
 - `Species`
 - `Specific gravity`
 - `Country` in which was collected the sample
 - `Sub-continent`
-- `Herbarium occurrence`
-
-### Additional data
-The file `Cirad wood collection - Additional data.csv` has the following column headers:
-- `CTFT id`
+- `Herbarium occurrence`, indicates if the wood sample has a match in IRD herbarium (Herbier IRD de Guyane) or National herbarium of the Muséum National d'Histoire Naturelle (MNHN - Paris, France). See links below. 
 - `Number of samples`
 - `Collector's name`
-- `Collector's id number`, which is related to IRD herbarium (Herbier IRD de Guyane) and National herbarium of the Muséum National d'Histoire Naturelle (MNHN - Paris, France). See links below. 
+- `Collector's id number`, indicates a classification indentifier in IRD herbarium (Herbier IRD de Guyane) or National herbarium of the Muséum National d'Histoire Naturelle (MNHN - Paris, France). See links below. 
 - `Notes on origin`
-- `Number of anatomical slide(s)`
-- `Spare samples`
+- `Number of anatomical slide(s)`, could take a value from `0` (no slide available) to `3`
+- `Spare samples`, indicates if other pieces of the same sample are available, in any form.
 
 ## Appendices
 ### Herbier IRD de Guyane
 http://publish.plantnet-project.org/project/caypub/collection/cay/specimens
 
+### Vascular plants, Muséum national d'Histoire naturelle (MNHN - Paris, France)
 https://science.mnhn.fr/institution/mnhn/collection/p/item/search/form
